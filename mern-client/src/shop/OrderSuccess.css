@@ -1,0 +1,32 @@
+/* Global CSS for fade-in animation */
+.order-success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .tick-image {
+    width: 150px;
+    animation: slideDown 2s ease-in-out;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .msg {
+    margin-top: 20px;
+    color: #28a745;
+  }
+  

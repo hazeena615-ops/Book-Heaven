@@ -1,0 +1,79 @@
+/* Container styling */
+.gold-stars {
+    color: gold; /* Makes the stars gold */
+    font-size: 1.5rem; /* Increases the size of the stars */
+    display: inline-block;
+  }
+.book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f9f9f9;
+  }
+  
+  /* Card styling */
+  .book-details-card {
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Image styling */
+  .book-details-image {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .book-details-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Text styling */
+  .book-details-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Button styling */
+  .book-details-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
